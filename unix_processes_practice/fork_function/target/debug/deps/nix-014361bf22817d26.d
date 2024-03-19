@@ -1,0 +1,13 @@
+/mnt/Data/code/Alura/Rust/unix_processes_practice/fork_function/target/debug/deps/libnix-014361bf22817d26.rmeta: /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/lib.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/macros.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/errno.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/fcntl.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/mod.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/signal.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/sysinfo.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/time.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/unistd.rs
+
+/mnt/Data/code/Alura/Rust/unix_processes_practice/fork_function/target/debug/deps/nix-014361bf22817d26.d: /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/lib.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/macros.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/errno.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/fcntl.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/mod.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/signal.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/sysinfo.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/time.rs /home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/unistd.rs
+
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/lib.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/macros.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/errno.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/fcntl.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/mod.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/signal.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/sysinfo.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/sys/time.rs:
+/home/psrra/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nix-0.28.0/src/unistd.rs:

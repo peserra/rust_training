@@ -38,12 +38,18 @@ impl Mensagem {
 
     Rust nao possue a propriedade null, mas tem um enum que encoda o conceito de um valor estar presente ou ausente, esse enum é o Option<T>. Não é necessário explicitamente dizer Option:: para chamar None ou Some.
 
-    <T> é uma sintaxe que indica um parâmetro de tipo genérico.  -- PArei aqui
+    <T> é uma sintaxe que indica um parâmetro de tipo genérico. Ou seja, a variante Some do Enum pode ser de qualquer valor, e qualquer "instancia" de Some terá o tipo que Some tiver.
+
+    A vantagem de ter o Option<T> ao inves de um null, é que o compilador não nos deixa realizar operações entre um Option<T> e um T, pois estes são tipos diferentes. Sendo assim, evita-se o erro de se operar um valor nulo, visto que é necessário converter Option<T> para T, pois estes são tipos distintos.
+
+    para se ter um value que pode ser null, deve-se obrigatoriamente ser um Option<T>, e alem disso, tratar sempre que for null. Sempre que o tipo não for um Option<T> É SEGURO ASSUMIR QUE NAO É NULO.
+
+    enum possue uma vasta quantidade de metodos para que se possa utilizar o valor <T> do Option. Alem disso, o match é uma forma de fluxo de controle que utiliza essa ideia de Some e None
 */
 
 enum Option<T> {
-    None,
     Some(T),
+    None, 
 }
 
 
@@ -53,5 +59,9 @@ fn main() {
     let loopback = tipoEndIP::V6(String::from("::1"));
 
     let m = Mensagem::Escrever(String::from("hello"));
+
+    // são de tipos diferentes
+    let algum_char = Some('c');
+    let algum_numero = Some(5);
     m.call();
 }
